@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB15FD08254AA736009314A9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AB15FD07254AA736009314A9 /* .gitignore */; };
 		AB90876C254AA3F40054265A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB90876B254AA3F40054265A /* AppDelegate.swift */; };
 		AB90876E254AA3F40054265A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB90876D254AA3F40054265A /* SceneDelegate.swift */; };
 		AB908770254AA3F40054265A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB90876F254AA3F40054265A /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB15FD07254AA736009314A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AB908768254AA3F40054265A /* CoCoPen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoCoPen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB90876B254AA3F40054265A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB90876D254AA3F40054265A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		AB90875F254AA3F40054265A = {
 			isa = PBXGroup;
 			children = (
+				AB9087A4254AA69B0054265A /* Git */,
 				AB90876A254AA3F40054265A /* CoCoPen */,
 				AB908781254AA3F60054265A /* CoCoPenTests */,
 				AB90878C254AA3F60054265A /* CoCoPenUITests */,
@@ -126,6 +129,14 @@
 				AB90878F254AA3F60054265A /* Info.plist */,
 			);
 			path = CoCoPenUITests;
+			sourceTree = "<group>";
+		};
+		AB9087A4254AA69B0054265A /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				AB15FD07254AA736009314A9 /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB15FD08254AA736009314A9 /* .gitignore in Resources */,
 				AB908778254AA3F60054265A /* LaunchScreen.storyboard in Resources */,
 				AB908775254AA3F60054265A /* Assets.xcassets in Resources */,
 				AB908773254AA3F40054265A /* Main.storyboard in Resources */,
